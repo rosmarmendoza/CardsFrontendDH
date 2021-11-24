@@ -51,7 +51,7 @@ form h1{
     align-self: flex-start;
 }
     
-form input{
+form input, #country{
     width: 100%;
     font-size: 16px;
     margin: 5px;
@@ -92,6 +92,8 @@ form a{
     margin-left: 5px;
     text-decoration: none;
 }
+
+style="color: red !important; display: inline; float: none;"
 /********** Footer*********/
     
 .footer{
