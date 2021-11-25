@@ -60,11 +60,21 @@
     font-weight: 400;
     margin: 1rem 0;
     color: black;
-    text-indent: 1rem;
-    outline: none; /*none border property*/
+    text-indent: 1rem;    
     }
+    /*Pseudocositas*/
+    .form .user_data:focus, .form .password_data:focus{
+        border: 0.4rem solid orange;
+    }
+    .input_submit:hover{
+        color: white;
+        background-color: #00669F;
+    }   
+
     .input_submit{
     background-color: #1CD1B0;
+    text-indent: 1rem;
+    outline: none; /*none border property*/
     color: black;
     width: 62rem;
     height: 5.3rem;
@@ -80,18 +90,22 @@
     }
     
     /*Pseudoclass*/
+
+
     p::before{
-        content: '&&';
-        color: black;
-    }
+        content: "♥";
+        color: red;
+    }   
     p::after{
-        content: '&&';
-        color: black;
-    }
+        content: "♥";
+        color: red;
+    }       
+
     .input_submit:hover{
         background-color: #00669F;
         color: white;
     }          
+
     p{
         display: block;     
         text-align: center;
