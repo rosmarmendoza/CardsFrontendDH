@@ -1,4 +1,4 @@
-    *{
+*{
     margin: 0;
     padding:0;
     font-size: 62.5%;
@@ -25,7 +25,7 @@
         font-weight: 400;  
         display: flex; /* aline content*/
     }
-     .logo{
+    .logo{
         width: 9.9rem;
         height: 7.4rem;
     }
@@ -45,7 +45,6 @@
     margin: 25rem auto; 
     font-family: 'Karla', sans-serif ;
     }
-
     .form h1{
     font-family: 'Inter', sans-serif;
     font-size: 7.2rem;
@@ -62,21 +61,37 @@
     margin: 1rem 0;
     color: black;
     text-indent: 1rem;
+    outline: none; /*none border property*/
+    }
+    .input_submit{
+    background-color: #1CD1B0;
+    color: black;
+    width: 62rem;
+    height: 5.3rem;
+    border-radius: 23px;
+    border-style: none;
+    font-size: 2.4rem;
+    font-weight: 400;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25):       
+    }
+    /*Pseudoelements*/
+    .form .user_data:focus, .form .password_data:focus {
+        border: 4px solid orange;
+    }
     
-    }
-    .button{
-        background-color: #1CD1B0;
+    /*Pseudoclass*/
+    p::before{
+        content: '&&';
         color: black;
-        width: 62rem;
-        height: 5.3rem;
-        border-radius: 23px;
-        border-style: none;
-        font-size: 2.4rem;
-        font-weight: 400;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-
-             
+    p::after{
+        content: '&&';
+        color: black;
+    }
+    .input_submit:hover{
+        background-color: #00669F;
+        color: white;
+    }          
     p{
         display: block;     
         text-align: center;
@@ -88,8 +103,6 @@
     .blue {
         color: #00669F;
     }
-
-
     /*Mr Footer*/
     .footer{
     width: 100vw;
