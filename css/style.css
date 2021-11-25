@@ -15,7 +15,7 @@ p, h2{
 .submenutop{
     background-color:  #1CD1B0;
     width: 100vw;
-    height: 3.8rem;
+    height: 2.3rem;
     font-weight: 400;
 }
 .submenutop h3{
@@ -26,13 +26,15 @@ p, h2{
 .submenumain{
     background-color:  #00669F;
     width: 100vw;
-    height: 101px;
+    height: 8rem;
     font-weight: 400;    
 }
 .submenumain h1{
 padding: 2.8rem;
 font-size: 4rem;
-}
+} 
+
+
 /*Mr. Main*/
 .card-container{
     display: flex;
